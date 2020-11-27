@@ -89,7 +89,7 @@ echo $kalkun
             Now lets enter our file path for out script exectution and our .txt document
 		/home/user/crontask.sh >> /home/user/sample.txt
             The full code should look something like this
-		 */30 * * * *    /home/user/crontask.sh >> /home/user/sample.txt
+		 30 * * * *    /home/user/crontask.sh >> /home/user/sample.txt
             now type "cat sample.txt" and see the results
 
 25. 
